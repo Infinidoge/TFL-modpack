@@ -1,0 +1,13 @@
+name = "megane"
+filename = "megane-8.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZNk5S5U6/versions/pe41spEB/megane-8.5.1.jar"
+hash-format = "sha1"
+hash = "c01c1239c2298fcd6fbb321b753b6beeb4f63941"
+
+[update]
+[update.modrinth]
+mod-id = "ZNk5S5U6"
+version = "pe41spEB"
