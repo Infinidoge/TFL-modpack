@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "overrides": [
+    {
+      "path": "<mods>/libIPN-fabric-1.19-3.0.2.jar",
+      "depends": [
+        {
+          "replace": {
+            "id": "fabric-language-kotlin",
+            "versions": "*"
+          },
+          "with": {
+            "id": "fabric-language-kotlin",
+            "versions": "1.9.0+kotlin.1.8.0"
+          }
+        }
+      ],
+      "breaks": []
+    },
+    {
+      "path": "<mods>/InventoryProfilesNext-fabric-1.19-1.10.6.jar",
+      "depends": [
+        {
+          "replace": {
+            "id": "fabric-language-kotlin",
+            "versions": "*"
+          },
+          "with": {
+            "id": "fabric-language-kotlin",
+            "versions": "1.9.0+kotlin.1.8.0"
+          }
+        }
+      ],
+      "breaks": []
+    }
+  ]
+}
